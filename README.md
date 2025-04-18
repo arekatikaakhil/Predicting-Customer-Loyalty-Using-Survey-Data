@@ -1,52 +1,59 @@
-# 🏦 Customer Churn Prediction for a U.S. Bank
+# ☕ Starbucks Customer Satisfaction Analysis
 
-This project applies machine learning techniques to predict customer churn based on credit card usage data from a U.S. bank. The goal is to identify customers at risk of leaving, enabling proactive retention strategies.
+This project analyzes survey data from Starbucks customers in Malaysia to uncover insights into customer satisfaction, loyalty, and behavioral preferences. It applies statistical modeling techniques to predict factors influencing customer return behavior.
 
 ## 📌 Project Overview
 
-Customer churn is a critical issue in the financial sector. Understanding the drivers behind customer cancellation can help banks implement targeted interventions and improve customer retention.
+Customer satisfaction is crucial for business growth and retention. This project investigates how factors like service quality, ambiance, and pricing affect customer loyalty and dining preferences.
 
-This project involves:
-- Analyzing customer behavior
-- Engineering predictive features
-- Building classification models to predict churn
-- Interpreting model outputs to drive business decisions
+The project includes:
+- Data cleaning and feature transformation
+- Exploratory data analysis and visualization
+- Statistical modeling to predict customer behavior
+- Model interpretation and evaluation
 
 ## 📊 Dataset
 
-The dataset contains anonymized customer-level details including:
-- Credit card usage patterns
-- Transaction history
-- Tenure and account features
-- Customer service interactions
-- Churn labels (binary: 1 = churned, 0 = retained)
+The dataset consists of 122 survey responses collected between October 1–5, 2019 from Starbucks Malaysia customers. It includes:
+- Customer demographics
+- Purchasing habits (dine-in, takeaway, drive-thru)
+- Ratings for price, service, Wi-Fi, ambiance
+- Loyalty program status and likelihood of return
 
-*(Note: Dataset source is not publicly available due to confidentiality. A synthetic version can be uploaded for demonstration.)*
+**Source:** [GitHub - Starbucks Satisfaction Survey](https://github.com/prasertcbs/basic-dataset/blob/master/Starbucks%20satisfactory%20survey.csv)
 
 ## 🔧 Technologies Used
 
-- **Python 3.9**
-- **scikit-learn**
-- **Pandas, NumPy**
-- **Matplotlib, Seaborn** (for visualization)
-- **Jupyter Notebook**
-- **Git/GitHub** for version control
+- **R (ggplot2, dplyr, polr)**
+- **Excel** (data cleaning & preparation)
+- **Logistic Regression**
+- **Ordinal Logistic Regression**
+- **Bar plots, stacked charts, probability curves** (for visualization)
 
-## 🧠 ML Models Implemented
+## 📈 Statistical Models
 
-- Logistic Regression
-- Random Forest Classifier
-- XGBoost
-- Model evaluation using:
-  - ROC-AUC Score
-  - Accuracy, Precision, Recall, F1
-  - Confusion Matrix
-  - Cross-validation
-  - GridSearchCV for hyperparameter tuning
+- **Ordinal Logistic Regression**  
+  To evaluate how situational factors influence the likelihood of choosing Starbucks for meetings/hangouts.
+  
+- **Logistic Regression**  
+  To assess the effect of price, service, ambiance, and promotions on customer loyalty.
 
-## ⚙️ How to Run the Project
+- **Model Diagnostics**  
+  Included AIC, residual deviance, Q-Q plots, and Cook’s Distance to evaluate performance and detect influential observations.
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/churn-prediction-bank.git
-   cd churn-prediction-bank
+## 📊 Key Insights
+
+- Customers closer to Starbucks outlets prefer takeaway; those farther favor dine-in.
+- Service quality and ambiance strongly influence meeting/hangout preferences.
+- Higher ratings for pricing, ambiance, and promotion correlate with increased loyalty.
+- Diagnostic plots reveal model strengths and areas for improvement.
+
+## 👨‍💻 Contributors
+
+- Akhil Arekatika  
+- Nithish Bilasunur Manjunatha Reddy  
+- Pritham Mahajan
+
+## ✅ Project Status
+
+Completed – Fall 2023
