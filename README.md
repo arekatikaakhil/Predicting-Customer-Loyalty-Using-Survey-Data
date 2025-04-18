@@ -1,0 +1,2 @@
+# Predicting Customer Loyalty Using Survey Data
+ Starbucks Customer Satisfaction Analysis – An end-to-end data analysis project using R and Excel to explore customer loyalty patterns based on survey data from Starbucks Malaysia. Includes data cleaning, visualizations, and predictive modeling with logistic and ordinal regression. Model performance was evaluated using AIC, residuals, and Cook’s distance. Tools used: R (ggplot2, polr, dplyr), Excel.
