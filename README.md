@@ -1,4 +1,4 @@
-# ☕ Starbucks Customer Satisfaction Analysis
+# ☕ Starbucks Customer Satisfaction Analysis 
 
 This project analyzes survey data from Starbucks customers in Malaysia to uncover insights into customer satisfaction, loyalty, and behavioral preferences. It applies statistical modeling techniques to predict factors influencing customer return behavior.
 
@@ -56,4 +56,4 @@ The dataset consists of 122 survey responses collected between October 1–5, 20
 
 ## ✅ Project Status
 
-Completed – Fall 2023
+Completed – Fall 2023 
